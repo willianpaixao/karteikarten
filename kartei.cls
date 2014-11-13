@@ -324,7 +324,7 @@
 \lohead{\dasfach{#1}}
 \rohead{\derkommentar{#3}}
 \thispagestyle{scrheadings}
-~\vfill{~\hfill \parbox[t]{.9\textwidth}{\centering \Large #2}\hfill~}\vfill~
+\vspace*{\fill} \parbox[t]{.9\textwidth}{#2} \vspace*{\fill}
 \newpage%
 }% Start os usual content block
 {% Build a warning if the page is too full (forcing a pagebreak)
