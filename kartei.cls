@@ -323,6 +323,9 @@
 \cohead{\theCardID}
 \lohead{\dasfach{#1}}
 \rohead{\derkommentar{#3}}
+%\cohead{}
+%\lohead{}
+%\rohead{}
 \thispagestyle{scrheadings}
 \vspace*{\fill} \parbox[t]{.9\textwidth}{#2} \vspace*{\fill}
 \newpage%
@@ -371,12 +374,17 @@
 \cohead{\theCardID}
 \cehead{\theCardID}
 %\cehead{\dieantwort}
+
+% Head and foot line definitions
 \setheadsepline{.4pt}[\color{black}]
+%\setlength{\footskip}{0pt}
+%\setfootsepline{.4pt}[\color{black}]
+
 %
 % Border Definitions
 %
 \tikzset{front grid/.style={very thin, gray}}
 \tikzset{rear grid/.style={thin, black, loosely dashed}}
-%
+
 \setcardpagelayout
 
