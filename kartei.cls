@@ -369,8 +369,8 @@
 \clearscrheadings
 \lohead{Kartentitel}
 \cohead{\theCardID}
-\lehead{\theCardID}
-\cehead{\dieantwort}%
+\cehead{\theCardID}
+%\cehead{\dieantwort}
 \setheadsepline{.4pt}[\color{black}]
 %
 % Border Definitions
@@ -379,3 +379,4 @@
 \tikzset{rear grid/.style={thin, black, loosely dashed}}
 %
 \setcardpagelayout
+
